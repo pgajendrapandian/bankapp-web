@@ -1,0 +1,68 @@
+.main {
+    background-color: var(--color-primary);
+    margin: auto 5rem;
+}
+
+.total-section {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid var(--color-nav);
+    max-height: 40%;
+}
+
+.total-section-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.9);
+    justify-content: stretch;
+    margin: 1rem auto;
+}
+
+.total-section-item h3 {
+    font-weight: 500;
+    color: var(--color-nav);
+}
+
+.total-section-item p {
+    font-weight: 300;
+}
+
+.accounts-section {
+    margin: 1rem 1rem;
+}
+
+.accounts-section-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.accounts-section-item {
+    display: flex;
+    font-size: 1.5rem;
+    color: var(--font-primary-color);
+    font-weight: 300;
+    transition: all .5s ease;
+    text-align: center;
+}
+
+.accounts-section-item:hover:not(.account-title-item) {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.account-name {
+    flex: 0 1 35%
+}
+
+.account-others {
+    flex: 0 1 20%
+}
+
+.account-title {
+    color: var(--color-nav);
+    font-weight: 500;
+}

@@ -1,0 +1,53 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    gap: 1.5rem;
+    font-weight: 700;
+
+}
+
+.form-input {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form-input input {
+    width: fit-content;
+    height: 25%;
+    border: 1px solid var(--color-nav);
+    border-radius: 5px;
+    font: inherit;
+    padding: 0.5rem 1rem;
+
+}
+
+.btn-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.btn-container button {
+    border: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    background-color: var(--color-nav);
+    color: var(--font-primary-color);
+    font-size: 1rem;
+    transition: all .2s ease-out;
+}
+
+.btn-container .btn-cancel {
+    background-color: rgba(255, 0, 0, 0.588);
+}
+
+.btn-container button:hover {
+    cursor: pointer;
+    transform: translate(0, 2px)
+}

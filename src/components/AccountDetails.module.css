@@ -1,0 +1,119 @@
+.accountdetails {
+    width: fit-content;
+    max-width: 100%;
+    min-height: 100%;
+    margin: 2rem auto;
+    padding: 2rem 4rem;
+    background-color: var(--color-primary);
+    color: var(--font-secondary-color);
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 0.5rem var(--font-secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.loan-account-name {
+    margin-top: 0.3rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.btn {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: var(--color-nav);
+    color: var(--font-primary-color);
+    font-size: 1rem;
+    transition: all .2s ease-out;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: translate(0, 2px)
+}
+
+.loans-container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: .5rem;
+}
+
+.loan-container {
+    border: 2px solid var(--color-nav);
+    border-radius: 5px;
+    padding: 1rem;
+    transition: all .2s ease-out;
+}
+
+.loan-container:hover {
+    transform: translate(0, 2px);
+
+}
+
+.loan-container>h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    border-bottom: 1px solid var(--color-nav);
+    text-transform: uppercase;
+}
+
+.loan-summary {
+    padding: 0.5rem 0;
+    display: flex;
+    gap: .5rem;
+    border-bottom: 1px solid var(--color-nav);
+}
+
+.loan-summary>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.loan-summary h3 {
+    font-size: 1.5rem;
+    letter-spacing: 0.1px;
+
+}
+
+.loan-summary p {
+    color: var(--font-primary-color);
+    font-size: 1rem;
+}
+
+.transactions-items {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem
+}
+
+.transactions-item,
+.transactions-title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.transactions-title .transaction-date {
+    flex: 0 1 30%
+}
+
+.transaction-date {
+    text-align: center;
+}
+
+.transactions-item {
+    font-size: 1.1rem;
+    color: var(--font-primary-color);
+}
+
+.btn-transaction {
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+}

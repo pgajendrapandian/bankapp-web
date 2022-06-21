@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-primary: #2a9d8f;
+  --color-nav: #264653;
+  --font-primary-color: rgba(255, 255, 255, 0.955);
+  --font-secondary-color: rgba(38, 70, 83, 0.836);
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
